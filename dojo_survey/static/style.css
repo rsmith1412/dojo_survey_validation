@@ -1,0 +1,36 @@
+body {
+    display: flex;
+}
+.wrapper {
+    margin: 100px 100px 100px 300px;
+    width: 600px;
+    border: 1px solid black;
+    padding: 20px;
+    display: inline-block;
+    display: center;
+    left: 40%;
+}
+.container {
+    margin: 50px;
+    border: 1px solid black;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+input[type="textarea"] {
+    width: 100%;
+    border-radius: 3px;
+    padding: 12px;
+    resize: vertical;
+}
+input[type="submit"] {
+    text-align: right;
+    background-color: dodgerblue;
+    color: white;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+}
